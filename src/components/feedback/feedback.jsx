@@ -12,7 +12,7 @@ const FeedbackOptions = ({ addGood, addNeutral, addBad }) =>
 export default FeedbackOptions;
 
 FeedbackOptions.propTypes = {
-    addGood: PropTypes.number.isRequired,
-    addNeutral: PropTypes.number.isRequired,
-    addBad: PropTypes.number.isRequired,
+    addGood: PropTypes.func.isRequired,
+    addNeutral: PropTypes.func.isRequired,
+    addBad: PropTypes.func.isRequired,
 };
